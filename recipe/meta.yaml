@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-mathjax3" %}
-{% set version = "4.2.2" %}
+{% set version = "4.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab-mathjax3-{{ version }}.tar.gz
-  sha256: 94c3e0f2d65527c4463fc0c35a8a34767631c5e849611f2f09a257dd02173c46
+  sha256: daee13969453ecfa22ac8969cd1daa8f887731ace8adb93a574b47aecabdc5dd
 
 build:
   number: 0
@@ -21,7 +21,6 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - jupyterlab ~=3.0
     - python >=3.6
 
 test:
